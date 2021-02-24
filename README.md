@@ -1,5 +1,5 @@
 # Cat Adventures
-## Este jogo é um projeto para a disciplina de Computação Gráfica e Sistemas Mutimídia, que faz parte do meu curso.
+## Este jogo é um projeto para a disciplina de Computação Gráfica e Sistemas Mutimídia, do curso Análise e Desenvolvimento de Sistemas do IFG.
 
 <h1 align="center">
   <img alt="CatImage" title="Cat" src="https://piskel-imgstore-b.appspot.com/img/ae2fff75-7640-11eb-91b2-d10ee6178b3b.gif" />
