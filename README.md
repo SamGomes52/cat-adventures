@@ -14,7 +14,7 @@
 - [x] Design do nível 1
 - [x] Tela de Game Over
 - [ ] Objetivo para passar de fase
-- [ ] Animações de andar e pular
+- [x] Animações de andar e pular
 - [ ] Menu
 - [ ] Atalhos para sair do jogo e voltar para o menu
 - [ ] Outras fases
