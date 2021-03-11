@@ -13,6 +13,7 @@ public class GameControler : MonoBehaviour
     public GameObject gameOver;
     public GameObject checkMessage;
     public GameObject checkMessageWin;
+    public GameObject controles;
 
     public static GameControler instance;
 
@@ -50,8 +51,22 @@ public class GameControler : MonoBehaviour
         checkMessageWin.SetActive(false);
     }
 
+    public void ShowControles()
+    {
+        controles.SetActive(true);
+    }
+    public void HideControles()
+    {
+        controles.SetActive(false);
+    }
+
     public void RestartGame(string lvlName)
     {
         SceneManager.LoadScene(lvlName);
+    }
+
+    public void SairdoJogo()
+    {
+        Application.Quit();
     }
 }

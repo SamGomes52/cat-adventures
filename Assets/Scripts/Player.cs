@@ -30,6 +30,9 @@ public class Player : MonoBehaviour
     {
         Move();
         Jump();
+        if (Input.GetKeyDown(KeyCode.Escape)) {
+            Application.Quit();
+        }
     }
 
     void Move()
