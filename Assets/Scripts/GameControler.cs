@@ -11,6 +11,8 @@ public class GameControler : MonoBehaviour
     public Text scoreText;
 
     public GameObject gameOver;
+    public GameObject checkMessage;
+    public GameObject checkMessageWin;
 
     public static GameControler instance;
 
@@ -22,12 +24,30 @@ public class GameControler : MonoBehaviour
 
     public void UpdateScoreText()
     {
-        scoreText.text = totalScore.ToString();
+        scoreText.text = totalScore.ToString() + " /15";
     }
 
     public void ShowGameOver()
     {
         gameOver.SetActive(true);
+    }
+
+    public void ShowCheckMessage()
+    {
+        checkMessage.SetActive(true);
+    }
+    public void HideCheckMessage()
+    {
+        checkMessage.SetActive(false);
+    }
+
+    public void ShowCheckMessageWin()
+    {
+        checkMessageWin.SetActive(true);
+    }
+    public void HideCheckMessageWin()
+    {
+        checkMessageWin.SetActive(false);
     }
 
     public void RestartGame(string lvlName)
