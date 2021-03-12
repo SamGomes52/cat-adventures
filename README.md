@@ -5,19 +5,16 @@
   <img alt="CatImage" title="Cat" src="https://piskel-imgstore-b.appspot.com/img/ae2fff75-7640-11eb-91b2-d10ee6178b3b.gif" />
 </h1>
 
-<h4 align="center"> 
-	🚧  Jogo Cat Adventures 🎮 Em construção...  🚧
-</h4>
 
 ### Recursos a ser desenvolvidos
 
 - [x] Design do nível 1
 - [x] Tela de Game Over
-- [ ] Objetivo para passar de fase
+- [x] Objetivo para passar de fase
 - [x] Animações de andar e pular
-- [ ] Menu
-- [ ] Atalhos para sair do jogo e voltar para o menu
-- [ ] Outras fases
+- [x] Menu
+- [x] Atalho para sair do jogo
+- [x] Outras fases
 
 ### 🛠 Ferramentas
 
